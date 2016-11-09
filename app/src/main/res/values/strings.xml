@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Aura</string>
+
+    <string name="hello_world">Hi guys!</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

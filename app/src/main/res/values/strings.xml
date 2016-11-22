@@ -1,7 +1,95 @@
-<resources>
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/tools">
     <string name="app_name">Aura</string>
 
-    <string name="hello_world">Hi guys!</string>
-
     <string name="action_settings">Settings</string>
+    <string name="action_repair">Repair</string>
+    <string name="action_about">About</string>
+    <string name="language_question">Choose a language</string>
+    <string name="language">Language</string>
+    <string name="about_title">About Aura</string>
+    <string name="about">"Aura is a technical project as part of our engineering school in the 4th year of training at ESIEA.
+
+This application aims to provide clarification to the user on different parts of the cockpit.
+They can also learn about the progress of the project in real time.
+
+Aura EN Version - 2016,2017"</string>
+    <string name="home_msg_1">From virtual simulation to</string>
+    <string name="home_msg_2">Real</string>
+    <string name="home_msg_3">With the participation of</string>
+
+    <string name="projet_msg_1">Under Construction</string>
+    <string name="projet_msg_2">Under Construction</string>
+    <string name="projet_msg_3">Under Construction</string>
+    <string name="projet_msg_4">Under Construction</string>
+
+    <string name="cessna_msg_1">"Under Construction"</string>
+    <string name="cessna_msg_2">"Under Construction"</string>
+    <string name="cessna_msg_3">More infos</string>
+
+    <string name="moteur_tab_1">Under Construction</string>
+    <string name="moteur_tab_2">Under Construction</string>
+    <string name="moteur_msg_1">Under Construction</string>
+    <string name="moteur_msg_2">Under Construction</string>
+    <string name="moteur_msg_3">Under Construction</string>
+    <string name="moteur_msg_4">Under Construction</string>
+    <string name="moteur_msg_5">Under Construction</string>
+    <string name="helice_msg_1">Under construction</string>
+    <string name="helice_msg_2">Under construction</string>
+    <string name="helice_msg_3">Under construction</string>
+    <string name="helice_msg_4">Under construction</string>
+
+    <string name="instru_tab_1">Under construction</string>
+    <string name="instru_tab_2">Under construction</string>
+    <string name="instru_tab_3">Under construction</string>
+    <string name="instru_in_msg_1">Under construction</string>
+    <string name="instru_in_msg_2">Under construction</string>
+    <string name="instru_in_msg_3">Under construction</string>
+    <string name="instru_an_msg_1">Under construction</string>
+    <string name="instru_an_msg_2">Under construction</string>
+    <string name="instru_an_msg_3">Under construction</string>
+    <string name="instru_pn_msg_1">Under construction</string>
+    <string name="instru_pn_msg_2">Under construction</string>
+    <string name="instru_pn_msg_3">Under construction</string>
+
+    <string name="radio_tab_1">Under construction</string>
+    <string name="radio_tab_2">Under construction</string>
+    <string name="radio_tab_3">Under construction</string>
+    <string name="radio_tab_4">Under construction</string>
+    <string name="radio_in_msg_1">Under construction</string>
+    <string name="radio_vor_msg_1">Under construction</string>
+    <string name="radio_vor_msg_2">Under construction</string>
+    <string name="radio_vor_msg_3">Under construction</string>
+    <string name="radio_ils_msg_1">Under construction</string>
+    <string name="radio_ils_msg_2">Under construction</string>
+    <string name="radio_rad_msg_1">Under construction</string>
+    <string name="radio_rad_msg_2">Under construction</string>
+
+    <string name="checklist_msg_1">Under construction</string>
+    <string name="checklist_msg_2">Under construction</string>
+
+    <string name="avanc_msg_1">Under construction</string>
+    <string name="avanc_msg_21">Under construction</string>
+    <string name="avanc_msg_22">Under construction</string>
+    <string name="avanc_msg_23">Under construction</string>
+    <string name="avanc_msg_24">Under construction</string>
+    <string name="avanc_msg_3">News</string>
+    <string name="avanc_msg_4">Update</string>
+
+    <string name="media_msg_1">Load</string>
+
+    <string name="menu_1">Presentation</string>
+    <string name="menu_11">The project</string>
+    <string name="menu_12">Progress (online)</string>
+    <string name="menu_13">Medias (online)</string>
+    <string name="menu_14">Checklists</string>
+    <string name="menu_2">The plane</string>
+    <string name="menu_21">Cessna 182</string>
+    <string name="menu_22">Engine and propeller</string>
+    <string name="menu_23">Instruments</string>
+    <string name="menu_24">Radio/Navigation</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="end_dl">Under construction</string>
 </resources>

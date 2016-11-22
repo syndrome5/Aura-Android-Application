@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_radio"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.esiea.praddaude.aura.RadioActivity">
+
+    <TabHost
+        android:id="@+id/tabHost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                android:id="@+id/tab1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin">
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:weightSum="1">
+
+                            <TextView
+                                android:text="@string/radio_in_msg_1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/textView28" />
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                app:srcCompat="@drawable/radio_1"
+                                android:id="@+id/imageView29" />
+
+                        </LinearLayout>
+                    </ScrollView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/activity_vertical_margin"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:paddingTop="@dimen/activity_vertical_margin">
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:weightSum="1">
+
+                            <TextView
+                                android:text="@string/radio_vor_msg_1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/textView29" />
+
+                            <ImageView
+                                android:layout_width="251dp"
+                                android:layout_height="189dp"
+                                app:srcCompat="@drawable/radio_3"
+                                android:id="@+id/imageView30"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginBottom="30dp" />
+
+                            <TextView
+                                android:text="@string/radio_vor_msg_2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/textView30" />
+
+                            <ImageView
+                                android:layout_width="266dp"
+                                android:layout_height="189dp"
+                                app:srcCompat="@drawable/radio_2"
+                                android:id="@+id/imageView31"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginBottom="30dp"
+                                android:layout_weight="0.23" />
+
+                            <TextView
+                                android:text="@string/radio_vor_msg_3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/textView31" />
+
+                        </LinearLayout>
+                    </ScrollView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/activity_vertical_margin"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:paddingTop="@dimen/activity_vertical_margin">
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:weightSum="1">
+
+                            <TextView
+                                android:text="@string/radio_ils_msg_1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/textView32" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                app:srcCompat="@drawable/radio_4"
+                                android:id="@+id/imageView32"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginBottom="30dp"
+                                android:layout_weight="0.71"
+                                android:layout_height="230dp" />
+
+                            <TextView
+                                android:text="@string/radio_ils_msg_2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/textView33" />
+
+                            <ImageView
+                                android:layout_width="339dp"
+                                app:srcCompat="@drawable/radio_5"
+                                android:id="@+id/imageView33"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginBottom="30dp"
+                                android:layout_weight="0.38"
+                                android:layout_height="150dp" />
+
+                        </LinearLayout>
+                    </ScrollView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/activity_vertical_margin"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:paddingTop="@dimen/activity_vertical_margin">
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:weightSum="1">
+
+                            <TextView
+                                android:text="@string/radio_rad_msg_1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/textView34" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                app:srcCompat="@drawable/radio_6"
+                                android:id="@+id/imageView34"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginBottom="30dp"
+                                android:layout_weight="0.71"
+                                android:layout_height="120dp" />
+
+                            <TextView
+                                android:text="@string/radio_rad_msg_2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/textView35" />
+
+                            <ImageView
+                                android:layout_width="339dp"
+                                app:srcCompat="@drawable/radio_7"
+                                android:id="@+id/imageView35"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginBottom="30dp"
+                                android:layout_weight="0.38"
+                                android:layout_height="120dp" />
+
+                        </LinearLayout>
+                    </ScrollView>
+
+                </LinearLayout>
+
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+</RelativeLayout>

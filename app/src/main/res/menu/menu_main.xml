@@ -4,6 +4,11 @@
       tools:context=".MainActivity">
     <item android:id="@+id/action_settings"
           android:title="@string/action_settings"
-          android:orderInCategory="100"
-          app:showAsAction="never"/>
+          android:orderInCategory="100" />
+    <item android:id="@+id/action_repair"
+        android:title="@string/action_repair"
+        android:orderInCategory="100" />
+    <item android:id="@+id/action_about"
+        android:title="@string/action_about"
+        android:orderInCategory="100" />
 </menu>

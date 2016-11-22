@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true">
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" >
+                            <TextView android:text="Before engine start" android:textSize="21dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/cell" android:paddingLeft="20dp" android:paddingBottom="5dp" android:paddingTop="5dp" android:layout_span="2" />
+                        </TableRow>
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" >
+                            <TextView android:text="Parking Brake" android:textSize="15dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/cell" android:paddingLeft="10dp" android:paddingRight="10dp" android:paddingBottom="5dp" android:paddingTop="5dp" />
+                            <TextView android:text="SET" android:textSize="15dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/cell" android:paddingLeft="10dp" android:paddingBottom="5dp" android:paddingTop="5dp" android:paddingRight="10dp" />
+                        </TableRow>
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" >
+                            <TextView android:text="Battery" android:textSize="15dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/cell" android:paddingLeft="10dp" android:paddingRight="10dp" android:paddingBottom="5dp" android:paddingTop="5dp" />
+                            <TextView android:text="ON" android:textSize="15dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/cell" android:paddingLeft="10dp" android:paddingBottom="5dp" android:paddingTop="5dp" android:paddingRight="10dp" />
+                        </TableRow>
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" >
+                            <TextView android:text="Beacon Light" android:textSize="15dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/cell" android:paddingLeft="10dp" android:paddingRight="10dp" android:paddingBottom="5dp" android:paddingTop="5dp" />
+                            <TextView android:text="ON" android:textSize="15dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/cell" android:paddingLeft="10dp" android:paddingBottom="5dp" android:paddingTop="5dp" android:paddingRight="10dp" />
+                        </TableRow>
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" >
+                            <TextView android:text="Navigation Light" android:textSize="15dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/cell" android:paddingLeft="10dp" android:paddingRight="10dp" android:paddingBottom="5dp" android:paddingTop="5dp" />
+                            <TextView android:text="ON" android:textSize="15dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/cell" android:paddingLeft="10dp" android:paddingBottom="5dp" android:paddingTop="5dp" android:paddingRight="10dp" />
+                        </TableRow>
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" >
+                            <TextView android:text="Cowl Flaps" android:textSize="15dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/cell" android:paddingLeft="10dp" android:paddingRight="10dp" android:paddingBottom="5dp" android:paddingTop="5dp" />
+                            <TextView android:text="FULL OPEN" android:textSize="15dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/cell" android:paddingLeft="10dp" android:paddingBottom="5dp" android:paddingTop="5dp" android:paddingRight="10dp" />
+                        </TableRow>
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" >
+                            <TextView android:text="Propeller" android:textSize="15dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/cell" android:paddingLeft="10dp" android:paddingRight="10dp" android:paddingBottom="5dp" android:paddingTop="5dp" />
+                            <TextView android:text="FULL PULL" android:textSize="15dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/cell" android:paddingLeft="10dp" android:paddingBottom="5dp" android:paddingTop="5dp" android:paddingRight="10dp" />
+                        </TableRow>
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" >
+                            <TextView android:text="Mixture" android:textSize="15dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/cell" android:paddingLeft="10dp" android:paddingRight="10dp" android:paddingBottom="5dp" android:paddingTop="5dp" />
+                            <TextView android:text="FULL PUSH (RICH)" android:textSize="15dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/cell" android:paddingLeft="10dp" android:paddingBottom="5dp" android:paddingTop="5dp" android:paddingRight="10dp" />
+                        </TableRow>
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" >
+                            <TextView android:text="Fuel Tank Selector" android:textSize="15dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/cell" android:paddingLeft="10dp" android:paddingRight="10dp" android:paddingBottom="5dp" android:paddingTop="5dp" />
+                            <TextView android:text="BOTH" android:textSize="15dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/cell" android:paddingLeft="10dp" android:paddingBottom="5dp" android:paddingTop="5dp" android:paddingRight="10dp" />
+                        </TableRow>
+
+
+                    </TableLayout>
+                </RelativeLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView27"
+        android:text="@string/checklist_msg_1"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

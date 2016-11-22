@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_moteur"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.esiea.praddaude.aura.MoteurActivity">
+
+    <TabHost
+        android:id="@+id/tabHost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/tab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/activity_vertical_margin"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:paddingTop="@dimen/activity_vertical_margin">
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:text="@string/moteur_msg_1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/textView9"
+                                android:paddingBottom="40dp" />
+
+                            <TextView
+                                android:text="@string/moteur_msg_2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/textView10" />
+
+                            <ImageView
+                                android:layout_width="227dp"
+                                android:layout_height="132dp"
+                                app:srcCompat="@drawable/moteur_1"
+                                android:id="@+id/imageView13"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginBottom="30dp"
+                                android:layout_marginTop="10dp" />
+
+                            <TextView
+                                android:text="@string/moteur_msg_3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/textView11" />
+
+                            <ImageView
+                                android:layout_width="227dp"
+                                android:layout_height="132dp"
+                                app:srcCompat="@drawable/moteur_2"
+                                android:id="@+id/imageView14"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginBottom="30dp"
+                                android:layout_marginTop="10dp"/>
+
+                            <TextView
+                                android:text="@string/moteur_msg_4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/textView12" />
+
+                            <ImageView
+                                android:layout_width="227dp"
+                                android:layout_height="132dp"
+                                app:srcCompat="@drawable/moteur_3"
+                                android:id="@+id/imageView15"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginBottom="30dp"
+                                android:layout_marginTop="10dp"/>
+
+                            <TextView
+                                android:text="@string/moteur_msg_5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/textView13" />
+
+                            <ImageView
+                                android:layout_width="227dp"
+                                android:layout_height="132dp"
+                                app:srcCompat="@drawable/moteur_4"
+                                android:id="@+id/imageView16"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginBottom="30dp"
+                                android:layout_marginTop="10dp"/>
+
+                        </LinearLayout>
+                    </ScrollView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/activity_vertical_margin"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:paddingTop="@dimen/activity_vertical_margin">
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:weightSum="1">
+
+                            <TextView
+                                android:text="@string/helice_msg_1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/textView14"
+                                android:paddingBottom="40dp"/>
+
+                            <TextView
+                                android:text="@string/helice_msg_2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/textView15" />
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                app:srcCompat="@drawable/helice_1"
+                                android:id="@+id/imageView17"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginBottom="30dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_weight="0.43"
+                                android:layout_height="200dp" />
+
+                            <TextView
+                                android:text="@string/helice_msg_3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/textView16" />
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                app:srcCompat="@drawable/helice_2"
+                                android:id="@+id/imageView18"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginBottom="30dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_height="232dp"
+                                android:layout_weight="0.18" />
+
+                            <TextView
+                                android:text="@string/helice_msg_4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/textView17" />
+
+                            <ImageView
+                                android:layout_width="320dp"
+                                app:srcCompat="@drawable/helice_3"
+                                android:id="@+id/imageView19"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginBottom="30dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_height="232dp" />
+
+                        </LinearLayout>
+                    </ScrollView>
+
+                </LinearLayout>
+
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+
+</RelativeLayout>

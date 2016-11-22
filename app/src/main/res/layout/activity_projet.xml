@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_projet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.esiea.praddaude.aura.ProjetActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/petit_logo"
+                android:id="@+id/imageView5"
+                android:adjustViewBounds="true" />
+
+            <TextView
+                android:text="@string/projet_msg_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/projet_1"
+                android:id="@+id/imageView6"
+                android:adjustViewBounds="true" />
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:columnCount="2"
+                android:rowCount="2">
+
+                <TextView
+                    android:text="@string/projet_msg_2"
+                    android:id="@+id/textView4"
+                    android:paddingTop="35dp"
+                    android:paddingBottom="15dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    app:srcCompat="@drawable/projet_2"
+                    android:id="@+id/imageView10"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="182dp"
+                    android:layout_height="131dp"
+                    android:adjustViewBounds="true" />
+
+                <ImageView
+                    app:srcCompat="@drawable/projet_3"
+                    android:id="@+id/imageView11"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="159dp"
+                    android:layout_height="108dp"
+                    android:adjustViewBounds="true" />
+
+                <TextView
+                    android:text="@string/projet_msg_3"
+                    android:id="@+id/textView5"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:layout_width="181dp"
+                    android:layout_height="183dp" />
+            </GridLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/projet_4"
+                android:id="@+id/imageView12"
+                android:adjustViewBounds="true" />
+
+            <TextView
+                android:text="@string/projet_msg_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView6"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

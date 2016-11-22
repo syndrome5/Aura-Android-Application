@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_instru"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.esiea.praddaude.aura.InstruActivity">
+
+    <TabHost
+        android:id="@+id/tabHost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/tab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/activity_vertical_margin"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:paddingTop="@dimen/activity_vertical_margin">
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:text="@string/instru_in_msg_1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/textView18"
+                                android:layout_marginBottom="30dp" />
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                app:srcCompat="@drawable/instru_in_1"
+                                android:id="@+id/imageView20"
+                                android:layout_marginBottom="30dp" />
+
+                            <TextView
+                                android:text="@string/instru_in_msg_2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/textView19" />
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                app:srcCompat="@drawable/instru_in_2"
+                                android:id="@+id/imageView21"/>
+
+                            <TextView
+                                android:text="@string/instru_in_msg_3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/textView23" />
+                        </LinearLayout>
+                    </ScrollView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/activity_vertical_margin"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:paddingTop="@dimen/activity_vertical_margin">
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" >
+
+                            <ImageView
+                                android:layout_width="206dp"
+                                android:layout_height="204dp"
+                                app:srcCompat="@drawable/instru_1"
+                                android:id="@+id/imageView22"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginBottom="30dp" />
+
+                            <TextView
+                                android:text="@string/instru_an_msg_1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/textView20"
+                                android:layout_marginBottom="50dp" />
+
+                            <ImageView
+                                android:layout_width="206dp"
+                                android:layout_height="204dp"
+                                app:srcCompat="@drawable/instru_3"
+                                android:id="@+id/imageView23"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginBottom="30dp" />
+
+                            <TextView
+                                android:text="@string/instru_an_msg_2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/textView21"
+                                android:layout_marginBottom="50dp" />
+
+                            <ImageView
+                                android:layout_width="206dp"
+                                android:layout_height="204dp"
+                                app:srcCompat="@drawable/instru_4"
+                                android:id="@+id/imageView24"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginBottom="30dp" />
+
+                            <TextView
+                                android:text="@string/instru_an_msg_3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/textView22"
+                                android:layout_marginBottom="50dp" />
+                        </LinearLayout>
+                    </ScrollView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/activity_vertical_margin"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:paddingTop="@dimen/activity_vertical_margin">
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" >
+
+                            <ImageView
+                                android:layout_width="206dp"
+                                android:layout_height="204dp"
+                                app:srcCompat="@drawable/instru_2"
+                                android:id="@+id/imageView25"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginBottom="30dp" />
+
+                            <TextView
+                                android:text="@string/instru_pn_msg_1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/textView24"
+                                android:layout_marginBottom="50dp" />
+
+                            <ImageView
+                                android:layout_width="206dp"
+                                android:layout_height="204dp"
+                                app:srcCompat="@drawable/instru_6"
+                                android:id="@+id/imageView26"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginBottom="30dp" />
+
+                            <TextView
+                                android:text="@string/instru_pn_msg_2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/textView25"
+                                android:layout_marginBottom="50dp" />
+
+                            <ImageView
+                                android:layout_width="206dp"
+                                android:layout_height="204dp"
+                                app:srcCompat="@drawable/instru_5"
+                                android:id="@+id/imageView27"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginBottom="30dp" />
+
+                            <TextView
+                                android:text="@string/instru_pn_msg_3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/textView26" />
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                app:srcCompat="@drawable/instru_7"
+                                android:id="@+id/imageView28" />
+                        </LinearLayout>
+                    </ScrollView>
+
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+
+</RelativeLayout>

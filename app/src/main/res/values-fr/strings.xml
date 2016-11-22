@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="app_name">Aura</string>
+
+    <string name="action_settings">Options</string>
+    <string name="action_repair">Réparer</string>
+    <string name="action_about">A propos</string>
+    <string name="language_question">Choisissez une langue</string>
+    <string name="language">Langue</string>
+    <string name="about_title">A propos de Aura</string>
+    <string name="about">"Aura est un projet technique dans le cadre de notre formation de 4ème année en école d'ingénieur à l\'ESIEA.
+
+Cette application a pour objectif d\'apporter des précisions à l\'utilisateur sur les différentes parties du cockpit.
+Il pourra également s\'informer sur l\'avancée du projet en temps réel.
+
+Aura FR Version - 2016,2017"</string>
+    <string name="home_msg_1">Envolez-vous pour une immersion</string>
+    <string name="home_msg_2">Unique</string>
+    <string name="home_msg_3">Avec la participation de</string>
+
+    <string name="projet_msg_1">Nous sommes une équipe de 4 étudiants en école d\'ingénieur en informatique à l\'ESIEA Paris. Passionné par toutes les facettes des nouvelles technologies, nous avons souhaité réaliser un projet de grand ampleur afin de tester nos compétences. Et oui il manquait bien quelqu\'un le jour de la photo !</string>
+    <string name="projet_msg_2">L\'objectif est simple : Faire découvrir les joies du pilotage aux novices tout en contentant les experts du domaines afin de pratiquer en toute sécurité !</string>
+    <string name="projet_msg_3">De nombreux éléments sont capitaux pour réussir : le travail d\'équipe, la coordination, l\'observation, la compréhension, la découverte, l\'adaptation et la capacité à concevoir simplement aux plus bas prix.</string>
+    <string name="projet_msg_4">Le cockpit que nous reproduisons est à l\'échelle 1, c\'est à dire à taille réelle. Celui-ci contient la plupart des éléments de commande, navigation et instrumentation que l\'on peut retrouver dans tout monomoteur classique. Notre cockpit utilise le simulateur Prepar3D ainsi que des programmes liés au projet comme Aura Bridge System et Aura Gauges System.</string>
+
+    <string name="cessna_msg_1">"Cessna est un constructeur américain d\'avions civils de simples monomoteurs jusqu\'à des jets d\'affaires.
+
+Le modèle 182 Skylane est un avion léger sorti en 1952 ayant pour caractéristiques :
+ - Moteur seul à hélice de 2400 tour/min
+ - Longueur : 8,84m
+ - Nombre de places : 4
+ - Masse à vide : 906kg
+ - Autonomie : 7,5h
+ - Plafond : 18100ft (5517m)
+ - Vitesse de croisière : 130kt (241km/h)"</string>
+    <string name="cessna_msg_2">"Nous avons choisi cet avion pour la reproduction du cockpit car c\'est un modèle classique du milieu de l\'aéronautique, notamment pour les jeunes diplomés ou les personnes en apprentissage avec un instructeur. Ce dernier possède également tous les éléments de base que l\'on peut retrouver dans la plupart des avions. De ce fait, la découverte des éléments que vous allez rencontrer ne sont pas propres à cet appareil."</string>
+    <string name="cessna_msg_3">+ d\'infos</string>
+
+    <string name="moteur_tab_1">Moteur à piston</string>
+    <string name="moteur_tab_2">Hélice et portance</string>
+    <string name="moteur_msg_1">Le Cessna 182 Skylane possède un moteur Continental O-470 qui s\'est dérivé sous plusieurs versions au cours du temps. Ce moteur est dit \'à pistons\'. Son fontionnement se décompose en 4 étapes ou cycles :</string>
+    <string name="moteur_msg_2">"Premier temps : l\'admission.
+Le piston est au point mort haut, la soupape d\'échappement est fermée et le volume compris entre le piston et le fond du cylindre est occupé par des gaz brûlés provenant de combustions antérieures, la soupape d\'admission s\'ouvre pour établir la communication entre le carburateur(*) et le cylindre. Tiré vers le bas par le vilebrequin, le piston descend et aspire un nouveau mélange air/carburant provenant du carburateur.
+Près de la fin de course du piston (appelée point mort bas), la soupape d\'admission se ferme par un mécanisme liant la soupape au vilebrequin.
+(*) Le carburateur est la zone où le mélange entre le kérozène et l'air se réalise. On appelle alors le mélange \'mixture\' et il doit suivre une proportion optimale pour un meilleur rendement. C'est la tige rouge sur le cockpit qui permet de régler la quantité de fuel à envoyer dans le carburateur."</string>
+    <string name="moteur_msg_3">"Deuxième temps : la compression.
+La course de compression commence lorsque la soupape d\'admission se ferme et que le piston sous l\'action du vilebrequin commence à se déplacer vers le haut du cylindre, comprimant le mélange dans un petit espace (chambre de combustion) en haut du cylindre."</string>
+    <string name="moteur_msg_4">"Troisième temps : mise à feu
+Le mélange est mis à feu par une bougie dont l\'alimentation par haute tension électrique se fait par intervalles appropriées. Instantanément, le mélange commence à brûler près de la bougie, et la flamme se propage très rapidement jusqu\'à ce que le mélange soit entièrement consumé. Cela provoque une augmentation énorme de la pression dans le cylindre, et force le piston vers le bas loin de la tête de cylindre, créant ainsi la force motrice qui fait tourner le vilebrequin. Lorsque le piston est proche du point bas de sa course, la soupape d\'échappement s'ouvre et laisse les gaz chauds s\'échapper.
+Lors d\'une combustion correcte, tout le mélange brûle proprement et de façon continue."</string>
+    <string name="moteur_msg_5">"Quatrième temps : échappement.
+Lors du quatrième temps, le temps d\'échappement, la presque totalité des gaz brûlés est rejetée par la remontée du piston vers la tête de cylindre. Juste avant que le piston atteigne le point mort haut la soupape d\'admission s\'ouvre et la soupape d\'échappement reste ouverte quelques instants après le point mort haut. A un instant donné, par conséquent, les deux soupapes sont ouvertes en même temps (fin de la course d\'échappement et au début de la course d\'admission)."</string>
+    <string name="helice_msg_1">Le but de l\'hélice est de fournir une force de traction en prenant appui sur l\'air. Le fonctionnement de cette hélice est basée sur le principe de portance, au même titre que les ailes d\'un avion mais en cherchant non pas une force tractant vers le haut mais vers l\'avant. De nombreux facteurs modifient cette force de traction, nous retiendrons le plus important ici : l\'angle de calage. Il existe 2 types de fonctionnement d\'hélice.</string>
+    <string name="helice_msg_2">"Hélice à calage fixe
+Actuellement les avions légers dans les Aéro-club sont encore équipés d\'hélice à calage fixe. Le petit calage permet des montées rapides (cas des avions remorqueurs) et des évolutions en voltige. Les avions de voyages sont équipés d\'une hélice grand calage, les performances de montée n\'étant pas la priorité mais bien la durée de vol en croisière. AN: l'angle de calage est aussi appelé pas."</string>
+    <string name="helice_msg_3">"Hélice à calage variable
+C\'est la possibilité de modifier l\'angle de calage par rotation autour de l\'axe de la pale. Au décollage, on privilégiera un petit pas pour une meilleure traction, puis on augmentera ce pas en vol de croisière pour une optimisation du rendement. Le C182 reproduit dans ce projet possède une hélice à calage variable (tige bleue sur le cockpit)."</string>
+    <string name="helice_msg_4">"Voici les différents angles de calage en degré en fonction des besoins :
+ - Petit pas (10°) : Meilleures performances au décollage, en montée, et pour aider à ralentir l\'avion en approche.
+ - Grand pas (45°) : Meilleures performances en croisière.
+ - Mise en drapeau (90°) : Pour effacer la pale dans le vent. Sur une hélice à pas variable en cas de panne moteur.
+ - Nul (0°) : Contrer la poussée, diminuer le couple résistant (au sol)
+ - Reverse (-17°) : Réduit la distance de roulage (à l’atterrissage)."</string>
+
+    <string name="instru_tab_1">Intro</string>
+    <string name="instru_tab_2">Anémo</string>
+    <string name="instru_tab_3">Pneuma</string>
+    <string name="instru_in_msg_1">"Les instruments de navigation permettent de relayer les différents états de l\'avion au pilote. Certains sont plus utilisés que d\'autres, mais tous jouent un rôle unique qui, parfois, sauve des vies. Un pilote doit en permanence vérifier le bon état de son appareil et doit même se préparer à ce que les instruments tombent en panne en plein vol. Cependant, il existe de nombreuses sécurité de nos jours pour limiter les problèmes.
+
+
+Les instruments du C182 fonctionnent par réaction mécanique qui créer le mouvement d\'aiguilles. Il existe deux types de circuit permettant ces réactions
+
+ - Les circuits anémométriques : Grâce au tube Pitot, l\'avion récupère notamment le flux d\'air et la pression ambiante."</string>
+    <string name="instru_in_msg_2"> - Les circuits pneumatiques : Grâce à un élément appelé \'Pompe à vide\', les instruments fonctionnants sur ces circuits réagissent différemment par rapport au type de circuit précédent.</string>
+    <string name="instru_in_msg_3">Il existe cependant d\'autres instruments réagissant par rapport aux ondes pour la navigation, ou encore par exemple la simple mesure du niveau de kérozène grâce à un flotteur.</string>
+    <string name="instru_an_msg_1">"L\'anémomètre ou badin est l\'indicateur de vitesse de l\'avion par rapport à la masse d\'air environnante. Elle est très souvent exprimée en Noeuds (KT), mais il est possible de trouver en MPH (miles per hour) ou encore en KM/H. Cet instrument possède 3 grandes marques
+ - Marque verte : l\'avion peut voler dans cette zone volets rétractés (en dessous, c\'est le décrochage !)
+ - Marque orange : l\'avion peut voler dans cette zone uniquement en dehors des zones de turbulences
+ - Marque rouge : Dépasser cette limite est la prise de risque de dépasser la limite structurale de l\'avion et donc une dislocation de l\'appareil en plein vol"</string>
+    <string name="instru_an_msg_2">"L\'altimètre est l\'élément indispensable pour piloter. Il permet d\'informer le pilote sur la hauteur à laquelle il est actuellement. Cela signifie la distance entre le sol en dessous de l\'avion et l\'avion lui-même. Il faut savoir qu\'il existe plusieurs types de hauteur comme l\'altitude qui est cette fois la mesure entre le niveau de la mer et la hauteur de l\'avion (même s\'il y a une montagne en dessous de l'avion).
+Pour obtenir la hauteur, on règle la pression atmosphérique ambiante. Cette dernière peut être exprimée en pouce de mercure (inHg, plutôt en Amérique) ou en hecto Pascal (hP plutôt en Europe)"</string>
+    <string name="instru_an_msg_3">"Le variomètre permet d\'obtenir l\'ascension de l\'avion, souvent en pieds par minute (ft/min). Si elle est positive, l\'avion monte et inversement, si elle est négative, alors l\'avion descend. L\'information importante de cet instrument est, dans la réalité, le retard de plusieurs secondes du mouvement de l\'aiguille par rapport à la situation présente."</string>
+    <string name="instru_pn_msg_1">"C\'est l\'instrument le plus connu du grand public : l\'horizon artificiel. De part ses couleurs qui se démarquent des autres instruments, il a la particularité de ne pas fonctionner avec des aiguilles mais avec des surfaces se déplacant et tournant. Grâce à cet appareil, on peut
+ - Savoir le taux de montée ou de descente
+ - Savoir l\'angle de virage
+Le surface bleu étant le ciel et la partie marron le sol. Sur la photo, on peut lire qu\'on tourne d\'environ 120° sur la gauche avec un taux de descente de près de 40°. Dans de telles conditions l\'avion est en pleine chute."</string>
+    <string name="instru_pn_msg_2">Le conservateur de cap est l\'élément permettant d\'indiquer à notre pilote automatique vers quel cap on veut se diriger (l\'indicateur orange). Attention, ce n\'est pas une boussole ! Le conservateur doit être réglé grâce au Gyro (boussole) à chaque début de vol.</string>
+    <string name="instru_pn_msg_3">"L\'indicateur de virage permet de nous informer sur le \'dérapage de l\'avion\'. En effet il est possible de se déplacer latéralement tout en conservant son cap. Pour régler ce problème, il suffit de manier le palonnier (pédales) vers le point noir. Il existe 2 types de dérapages
+ - Dérapage vers l\'intérieur
+ - Dérapage vers l\'extérieur (ce que représente le schéma ci-après)"</string>
+
+    <string name="radio_tab_1">Intro</string>
+    <string name="radio_tab_2">VOR</string>
+    <string name="radio_tab_3">ILS</string>
+    <string name="radio_tab_4">Radio</string>
+    <string name="radio_in_msg_1">"Les instruments de radionavigation sont des aides radioélectriques qui utilisent des stations au sol ou des satellites pour fournir des indications fiables sur la position de l\'avion dans l\'espace. Le premier système est apparu en 1920, et de nouveaux toujours plus précis et performants sont apparus jusqu\'à aujourd'hui.
+On peut énumerer les moyens les plus utilisés de nos jours comme tel :
+ - VOR - VHF Omnidirectional Range
+ - ILS - Instrument Landing System
+ - NDB - Non Directional Beacon
+ - DME - Distance Measuring Equipment
+ - GPS - Global Positionning System
+
+Dans le cockpit reproduit, celui-ci possède les systèmes VOR et ILS fonctionnels. C\'est pour cette raison que nous allons uniquement décrire le fonctionnement de chacun dans les parties ci-après.
+"</string>
+    <string name="radio_vor_msg_1">"VOR abréviation de VHF Omnidirectional Range est un système de positionnement à courte et moyenne distance utilisé en navigation aérienne et fonctionnant dans la plage des fréquences VHF (Very High Frequencies). Le récepteur à bord permet de connaître de façon continue et visuelle le relèvement magnétique de l\'aéronef par rapport à une station sol et de suivre une route magnétique en rapprochement ou en éloignement par rapport à cette balise. Les VOR travaillent dans la gamme de fréquences de 108 à 117.95MHz.
+
+Voici un exemple de balise VOR que l\'on peut retrouver au sol"</string>
+    <string name="radio_vor_msg_2">"Le pilote obtient donc 2 informations grâce au VOR :
+ - La direction de la station par rapport à la position de l\'avion. Elle est représentée sur l\'instrument par la barre blanche verticale. Ici elle se dirige vers la gauche donc la station est à gauche de l\'aéronef. S\'il avait été à droite, la barre se serait penchée à droite.
+ - Si l\'avion se rapproche ou s\'éloigne de la station (TO/FROM). On peut obtenir cette information en regardant l\'indicateur blanc \'NAV\'. Moitié blanc vers l\'avant signifie que le repère se trouve à l\'avant de l\'avion. S\'il avait été derrière, l\'indicateur serait vers l\'arrière."</string>
+    <string name="radio_vor_msg_3">Grâce à ceci, on peut se diriger en fonction du repère en se connectant simplement à la fréquence. La méthode classique de l\'utilisation d\'un VOR est de s\'y diriger avec les 2 repères expliqués ci-dessus. Dès que notre repère NAV passe de TO à FROM, alors on vient de passer au dessus de la station. Il suffit de se connecter sur la fréquence d\'un autre VOR pour continuer sa route. Cette méthode s\'appelle le pilotage aux instruments (IFR).</string>
+    <string name="radio_ils_msg_1">"L\' ILS (Instrument Landing System) est un système d\'aide à l\'atterrissage aux instruments par visibilité réduite. Les informations délivrées au pilote sont des informations:
+    - continues de position par rapport à l\'axe de la piste \'Localizer\'
+    - continues de position par rapport à un plan oblique de descente aboutissant à la piste \'Glide Path\'
+    - continues de distance par rapport au seuil de piste si l\'ILS est couplé avec un radar de distance (DME)
+L\'avion est autonome et aucune liaison sol-air n\'est nécessaire.
+"</string>
+    <string name="radio_ils_msg_2">"Le but du Localizer est de donner une information continue d\'écart dans un plan horizontal (azimut), en émettant grâce à un ensemble d\'antennes des signaux radioélectriques dans l\'axe de piste. Il utilise les mêmes fréquences que les VOR.
+Le Glide Path est une aide à la navigation courte distance. Son but est de donner une information continue d\'écart en grandeur et en signe par rapport à un plan oblique matérialisant le plan de descente. C\'est la barre blanche horizontale. Se connecter au localizer synchronise automatiquement le GP.
+
+En final, une fois la piste en vue, le pilote se doit d\'aligner le plus précisemment possible son avion par rapport à la piste. N\'ayant plus vraiment le temps de regarder sur ses instruments, un système a été inventé pour remplacer le Glide Path à ce moment. Il se nomme \'PAPI\'.
+Il s\'agit de 4 lumières blanches ou rouges. Si l\'avion est trop haut, il y a plus de lumières blanches et s\'il y a plus de lumières rouges, alors l\'avion est trop bas. Le but est d\'avoir 2 lumières rouges et 2 lumières blanches. Attention, il n\'y a pas systématiquement des PAPI sur les pistes, surtout pour les plus petits aérodromes."</string>
+    <string name="radio_rad_msg_1">"Tous les systèmes précédents sont automatisés. Cependant, pour les communications, un contact entres humains est obligatoire. Une phraséologie spécialement conçue pour l\'aéronautique a été inventé. Les ondes radio sont utilisées comme support de transport, et la bande de fréquence se trouve entre 108Mhz et 137Mhz.
+
+Rentrer en contact avec les tours de contrôles aux alentours est obligatoire pour rentrer dans le circuit aérien. Selon la position de l\'aéronef, il est nécessaire de se connecter sur des tours spécifiques, comme par exemple (non exhaustif)
+ - \'Tour\' pour les décollages et atterrissages
+ - \'Sol\' pour les déplacements au sol
+ - \'Approche\' pour l\'approche des avions sur l\'aéroport"</string>
+    <string name="radio_rad_msg_2">"Afin de repérer l\'avion dans un circuit, le transpondeur a été inventé. Son rôle est de permettre aux tours de contrôle d\'identifier un avion grâce à un code temporaire de 4 chiffres en base 7.
+Il y a plusieurs états du transpondeur. Dans notre cockpit, 3 modes ont été reproduit :
+ - Off : le transpondeur est éteint.
+ - Stand-by (SBY) : le transpondeur possède un numéro, il est utilisé pour le déplacement au sol.
+ - On : Utilisé uniquement lors de l\'entrée en piste et en vol."</string>
+
+    <string name="checklist_msg_1">Glissez pour accéder aux autres checklist</string>
+    <string name="checklist_msg_2">Vol terminé !</string>
+
+    <string name="avanc_msg_1">Le projet</string>
+    <string name="avanc_msg_21">Vous possédez déjà la dernière version.</string>
+    <string name="avanc_msg_22">Mise à jour effectuée.</string>
+    <string name="avanc_msg_23">Téléchargement...</string>
+    <string name="avanc_msg_24">Erreur lors de l\'établissement de la connexion</string>
+    <string name="avanc_msg_3">Nouveautés</string>
+    <string name="avanc_msg_4">Mettre à jour</string>
+
+    <string name="media_msg_1">Charger</string>
+
+    <string name="menu_1">Présentation</string>
+     <string name="menu_11">Le projet</string>
+     <string name="menu_12">L\'avancement (en ligne)</string>
+     <string name="menu_13">Médias (en ligne)</string>
+     <string name="menu_14">Checklists</string>
+    <string name="menu_2">L\'avion</string>
+     <string name="menu_21">Cessna 182</string>
+     <string name="menu_22">Moteur et Hélice</string>
+     <string name="menu_23">Les instruments</string>
+     <string name="menu_24">Radio et Navigation</string>
+
+    <string name="drawer_open">Ouverture de la navigation</string>
+    <string name="drawer_close">Fermeture de la navigation</string>
+    <string name="end_dl">Téléchargement terminé !</string>
+</resources>

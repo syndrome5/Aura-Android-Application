@@ -15,12 +15,9 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/imageView12"
-            app:srcCompat="@drawable/home_i"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:adjustViewBounds="true" />
+            app:srcCompat="@drawable/home_ila"
+            android:id="@+id/imageView8"
+            android:adjustViewBounds="false" />
 
         <TextView
             android:text="@string/home_msg_1"
@@ -30,36 +27,49 @@
             android:textColor="#FFFFFF"
             android:textSize="21sp"
             android:gravity="center"
-            android:layout_marginTop="52dp"
             android:fontFamily="sans-serif-smallcaps"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:text="@string/home_msg_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:textColor="#FFFFFF"
+            android:textSize="46sp"
+            android:gravity="center"
+            android:fontFamily="cursive"
+            android:layout_below="@+id/textView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="45dp" />
 
         <ImageView
             app:srcCompat="@drawable/home_acaf"
             android:id="@+id/imageView4"
-            android:layout_marginRight="20dp"
-            android:layout_marginEnd="20dp"
+            android:layout_marginRight="33dp"
+            android:layout_marginEnd="33dp"
             android:layout_height="50dp"
             android:layout_width="50dp"
-            android:layout_alignBottom="@+id/imageView12"
-            android:layout_alignRight="@+id/imageView12"
-            android:layout_alignEnd="@+id/imageView12"
-            android:layout_marginBottom="28dp" />
+            android:layout_alignTop="@+id/imageView3"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
 
         <ImageView
             app:srcCompat="@drawable/home_e"
             android:id="@+id/imageView3"
             android:layout_width="70dp"
             android:layout_height="50dp"
-            android:layout_alignTop="@+id/imageView4"
+            android:layout_marginRight="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_alignParentBottom="true"
             android:layout_toLeftOf="@+id/imageView4"
             android:layout_toStartOf="@+id/imageView4"
-            android:layout_marginRight="23dp"
-            android:layout_marginEnd="23dp" />
+            android:layout_marginBottom="7dp" />
 
         <TextView
             android:text="@string/home_msg_3"
@@ -71,24 +81,12 @@
             android:fontFamily="sans-serif-condensed"
             android:gravity="center_vertical"
             android:paddingLeft="10dp"
-            android:layout_alignTop="@+id/imageView4"
+            android:layout_marginLeft="23dp"
+            android:layout_marginStart="23dp"
+            android:layout_marginBottom="10dp"
+            android:layout_alignBottom="@+id/imageView3"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_alignBottom="@+id/imageView3" />
-
-        <TextView
-            android:text="@string/home_msg_2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView"
-            android:textColor="#FFFFFF"
-            android:textSize="46sp"
-            android:gravity="center"
-            android:fontFamily="cursive"
-            android:layout_above="@+id/imageView3"
-            android:layout_centerHorizontal="true"
-            android:layout_marginBottom="124dp" />
-
+            android:layout_alignParentStart="true" />
 
     </RelativeLayout>
 

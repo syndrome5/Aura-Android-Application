@@ -1,6 +1,7 @@
 package org.esiea.praddaude.aura;
 
 // Toast.makeText(SettingsActivity.this, map.get("State"), Toast.LENGTH_SHORT).show();
+// test git
 
 import android.content.Context;
 import android.content.DialogInterface;

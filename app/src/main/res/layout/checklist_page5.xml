@@ -43,7 +43,8 @@
                         <TableRow
                             android:layout_width="match_parent"
                             android:layout_height="match_parent" >
-                            <TextView android:text="Informations" android:textSize="15dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/cell" android:paddingLeft="10dp" android:paddingRight="10dp" android:paddingBottom="5dp" android:paddingTop="5dp" />
+                            <TextView android:text="Informations" android:textSize="15dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/cell" android:paddingLeft="10dp" android:paddingRight="10dp" android:paddingBottom="5dp" android:paddingTop="5dp"
+                                android:textColor="#FF0000" />
                             <TextView android:text="ROTATE AT 60KT" android:textSize="15dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/cell" android:paddingLeft="10dp" android:paddingBottom="5dp" android:paddingTop="5dp" android:paddingRight="10dp" />
                         </TableRow>
                         <TableRow
@@ -56,7 +57,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent" >
                             <TextView android:text="Flaps" android:textSize="15dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/cell" android:paddingLeft="10dp" android:paddingRight="10dp" android:paddingBottom="5dp" android:paddingTop="5dp" />
-                            <TextView android:text="IF &gt;60KT RETRACT" android:textSize="15dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/cell" android:paddingLeft="10dp" android:paddingBottom="5dp" android:paddingTop="5dp" android:paddingRight="10dp" />
+                            <TextView android:text="IF &gt;85KT RETRACT" android:textSize="15dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/cell" android:paddingLeft="10dp" android:paddingBottom="5dp" android:paddingTop="5dp" android:paddingRight="10dp" />
                         </TableRow>
                         <TableRow
                             android:layout_width="match_parent"

@@ -10,69 +10,131 @@
     <string name="about_title">About Aura</string>
     <string name="about">"Aura is a technical project as part of our engineering school in the 4th year of training at ESIEA.
 
-This application aims to provide clarification to the user on different parts of the cockpit.
-They can also learn about the progress of the project in real time.
+The aim of this application is to provide clarification to the user on different parts of the cockpit.
+It will also allow to have a realtime follow up on the project.
 
 Aura EN Version - 2016,2017"</string>
     <string name="home_msg_1">From virtual simulation to</string>
     <string name="home_msg_2">Real</string>
     <string name="home_msg_3">With the participation of</string>
 
-    <string name="projet_msg_1">Under Construction</string>
-    <string name="projet_msg_2">Under Construction</string>
-    <string name="projet_msg_3">Under Construction</string>
-    <string name="projet_msg_4">Under Construction</string>
+    <string name="projet_msg_1">We are a team of 4 students from ESIEA engineering school. We are passionated about new technologies, and we wanted to realize a challenging project to try out our skills. And yes, a teammate were indeed missing the day the photo was taken</string>
+    <string name="projet_msg_2">The goal is simple : introduce the joy of piloting to beginners as well as fullfil expert needs in piloting safety through a realistic simulation</string>
+    <string name="projet_msg_3">A lot of elements are crucial for the success of this project : teamwork, being coordinated, observation, comprehension, discovery and the capacity to adapte as well as being able to conceive things with a low budget.</string>
+    <string name="projet_msg_4">The cockpit is going to be reproduced at a scale 1 to 1, in other words, real size. It will contain most of the command elements, navigation and instruments that may be found on most monomoters. Our cockpit will be based on Prepar3D simulation program, as well as some other homemade programs such as Aura Bridge System and Aura Gauges System.</string>
 
-    <string name="cessna_msg_1">"Under Construction"</string>
-    <string name="cessna_msg_2">"Under Construction"</string>
+    <string name="cessna_msg_1">"Cessna is a american civil plane maker, and range from simple mono-engine to business jets.
+
+The 182 Skylane is a lightweight plane, released in 1952 and has thos characteristics:
+ - Single 2400rpm propeller engine
+ - Length : 8.84m
+ - Number of seats : 4
+ - Unladen weight : 906kg
+ - Autonomy : 7.5h
+ - Maximum altitude : 18100ft (5517m)
+ - Cruise speed : 130kt (241km/h)"</string>
+    <string name="cessna_msg_2">"We have decided to reproduce this plane model because it is a very well known model in the aeronautique field, especially to young pilots or students. This cockpit has the basic instruments that may be found in most planes. For this reason, the elements that you\'ll see in this cockpit isn\'t specific to this plane."</string>
     <string name="cessna_msg_3">More infos</string>
 
-    <string name="moteur_tab_1">Under Construction</string>
-    <string name="moteur_tab_2">Under Construction</string>
-    <string name="moteur_msg_1">Under Construction</string>
-    <string name="moteur_msg_2">Under Construction</string>
-    <string name="moteur_msg_3">Under Construction</string>
-    <string name="moteur_msg_4">Under Construction</string>
-    <string name="moteur_msg_5">Under Construction</string>
-    <string name="helice_msg_1">Under construction</string>
-    <string name="helice_msg_2">Under construction</string>
-    <string name="helice_msg_3">Under construction</string>
-    <string name="helice_msg_4">Under construction</string>
+    <string name="moteur_tab_1">Piston engine</string>
+    <string name="moteur_tab_2">Propeller and lift</string>
+    <string name="moteur_msg_1">Cessna 182 Skylane has a Continental 0-470 engine, that has many versions over time.This engine is a piston engine. It works in 4 steps or cycles :</string>
+    <string name="moteur_msg_2">"First step : Intake, induction or suction
+The intake valves are open as a result of the cam lobe pressing down on the valve stem. The piston moves downward increasing the volume of the combustion chamber and allowing air to enter in the case of a CI engine or an air fuel mix in the case of SI engines that do not use direct injection. The air or air-fuel mixture is called the charge in any case."</string>
+    <string name="moteur_msg_3">"Second step : Compression
+In this stroke, both valves are closed and the piston moves upward reducing the combustion chamber volume which reaches its minimum when the piston is at TDC. The piston performs work on the charge as it is being compressed; as a result its pressure, temperature and density increase; an approximation to this behavior is provided by the ideal gas law. Just before the piston reaches TDC, ignition begins. In the case of a SI engine, the spark plug receives a high voltage pulse that generates the spark which gives it its name and ignites the charge. In the case of a CI engine the fuel injector quickly injects fuel into the combustion chamber as a spray; the fuel ignites due to the high temperature."</string>
+    <string name="moteur_msg_4">"Third step : Power or working stroke
+The pressure of the combustion gases pushes the piston downward, generating more work than it required to compress the charge. Complementary to the compression stroke, the combustion gases expand and as a result their temperature, pressure and density decreases. When the piston is near to BDC the exhaust valve opens. The combustion gases expand irreversibly due to the leftover pressure (in excess of back pressure, the gauge pressure on the exhaust port); this is called the blowdown."</string>
+    <string name="moteur_msg_5">"Fourth step : Exhaust
+The exhaust valve remains open while the piston moves upward expelling the combustion gases. For naturally aspirated engines a small part of the combustion gases may remain in the cylinder during normal operation because the piston does not close the combustion chamber completely; these gases dissolve in the next charge. At the end of this stroke, the exhaust valve closes, the intake valve opens, and the sequence repeats in the next cycle. The intake valve may open before the exhaust valve closes to allow better scavenging."</string>
+    <string name="helice_msg_1">The purpose of the propeller is to produce traction force by pushing the air backward. It works on the lift principle, just like the wings of a plane. However, the wings create vertical lift, whereas propellers create forward lift. Numerous factors will affect the traction force, and we will focus on the most important one : the blade pitch. There\'s two types of operation</string>
+    <string name="helice_msg_2">"Fixed blade pitch :
+Currently, small airplanes in airclubs are equiped with fixed blade pitch. A small pitch allows fast ascent (for cargo planes) or aerobatics aircraft. Transportation aircraft has a high blade pitch angle, because performance isn\'t the priority, but the efficiency and high flight time."</string>
+    <string name="helice_msg_3">"Variable blade pitch :
+During the takeoff, the blade pitch will be set to low, in order to get the most lift possible, and as the altitude is raising, the blade pitch will also rise to be more efficient. C182 has a variable blade pitch, and is controlled with the blue pull and push button."</string>
+    <string name="helice_msg_4">"Here are different blade pitches:
+ - Small steps (10°) : Better performance for take off, ascent, and slow down during approaches
+ - Big steps (45°) : better performance for cruising
+ - Flagged (90°) : This creates no resistance to the air (just like a flag). Used in case of an engine failure
+ - Nul (0°) : Creates a counter lift. Used when parked
+ - Reverse (-17°) : Slow down the craft for landing"</string>
 
-    <string name="instru_tab_1">Under construction</string>
-    <string name="instru_tab_2">Under construction</string>
-    <string name="instru_tab_3">Under construction</string>
-    <string name="instru_in_msg_1">Under construction</string>
-    <string name="instru_in_msg_2">Under construction</string>
-    <string name="instru_in_msg_3">Under construction</string>
-    <string name="instru_an_msg_1">Under construction</string>
-    <string name="instru_an_msg_2">Under construction</string>
-    <string name="instru_an_msg_3">Under construction</string>
-    <string name="instru_pn_msg_1">Under construction</string>
-    <string name="instru_pn_msg_2">Under construction</string>
-    <string name="instru_pn_msg_3">Under construction</string>
+    <string name="instru_tab_1">Intro</string>
+    <string name="instru_tab_2">Anemo</string>
+    <string name="instru_tab_3">Pneuma</string>
+    <string name="instru_in_msg_1">"The navigation instruments allow the different states of the aircraft to be relayed to the pilot. Some are more used than others, but all play a unique role that sometimes saves lives. A pilot must constantly check the condition of his aircraft and must even be prepared for the instruments to fail during flight. However, there are many securities nowadays to limit the problems
 
-    <string name="radio_tab_1">Under construction</string>
-    <string name="radio_tab_2">Under construction</string>
-    <string name="radio_tab_3">Under construction</string>
-    <string name="radio_tab_4">Under construction</string>
-    <string name="radio_in_msg_1">Under construction</string>
-    <string name="radio_vor_msg_1">Under construction</string>
-    <string name="radio_vor_msg_2">Under construction</string>
-    <string name="radio_vor_msg_3">Under construction</string>
-    <string name="radio_ils_msg_1">Under construction</string>
-    <string name="radio_ils_msg_2">Under construction</string>
-    <string name="radio_rad_msg_1">Under construction</string>
-    <string name="radio_rad_msg_2">Under construction</string>
+The C182 instruments work by mechanical reaction which creates the movement of the needles. There are two types of circuit allowing these reactions:
 
-    <string name="checklist_msg_1">Under construction</string>
-    <string name="checklist_msg_2">Under construction</string>
+ - The anemometric circuits: Thanks to the Pitot tube, the airplane recovers the air flow and the ambient pressure."</string>
+    <string name="instru_in_msg_2"> - Pneumatic circuits: Thanks to an element called \'Vacuum pump\', the instruments operating on these circuits react differently to the previous type of circuit.</string>
+    <string name="instru_in_msg_3">There are, however, other instruments which react with respect to electromagnetic waves for navigation, or even with a simple read of a float to measure the level of kerosene.</string>
+    <string name="instru_an_msg_1">"The anemometer or airspeed indicator is the speed indicator of the airplane relative to the surrounding air mass. It is very often expressed in knots (KT), but it is possible to find in MPH (miles per hour) or in KM/H. This instrument has 3 major marks
+ - Green mark: the plane can fly in this zone (beloow, it will stall!)
+ - Orange mark: the aircraft can fly in this area only when not in turbulence zones
+ - Red mark: Exceeding this limit is the risk of exceeding the structural limit of the aircraft and therefore leading to a dislocation of the aircraft during flight"</string>
+    <string name="instru_an_msg_2">"The altimeter is the essential element to pilote. It allows to inform the pilot on the height at which it is currently. This means the distance between the ground below the plane and the plane itself. It is necessary to know that there are several types of height such as altitude, this time being the measure between the level of the sea and the height of the plane (even if there is a mountain below the plane).
+To obtain the height, the atmospheric pressure is adjusted. It can be expressed in inches of mercury (inHg in USA) or in hecto Pascal (hP in Europe)"</string>
+    <string name="instru_an_msg_3">The variometer makes it possible to obtain the ascent of the plane, often in feet per minute (ft / min). If the value is positive, the plane goes up and vice versa, if it is negative, then the plane goes down.</string>
+    <string name="instru_pn_msg_1">"It is the best known instrument of the general public: the artificial horizon. Due to its colors that stand out from other instruments, it has the particularity of not working with needles but with surfaces moving and turning. Thanks to this device, we may:
+ - Know the rate of rise or fall
+ - Knowing turning angle
+The blue surface being the sky and the brown part the ground. In the picture, one can see that one turns about 120 ° on the left with a rate of descent of almost 40 °. In such conditions the plane is in stalling."</string>
+    <string name="instru_pn_msg_2">The heading indicator is the element to indicate to the autopilot which direction we want to head (the orange indicator). Be careful, this is not a compass! The indicator must be adjusted with the Gyro (compass) at each start of flight.</string>
+    <string name="instru_pn_msg_3">"The turn and slip indicator informs the pilote about the \'skidding of the airplane\'. Indeed it is possible to move laterally while maintaining its course. To solve this problem, simply manipulate the pedals towards the black dot. There are 2 types of skids
+ - Skid inwards
+ - Skid to the outside (as shown in the diagram below)"</string>
 
-    <string name="avanc_msg_1">Under construction</string>
-    <string name="avanc_msg_21">Under construction</string>
-    <string name="avanc_msg_22">Under construction</string>
-    <string name="avanc_msg_23">Under construction</string>
-    <string name="avanc_msg_24">Under construction</string>
+    <string name="radio_tab_1">Intro</string>
+    <string name="radio_tab_2">VOR</string>
+    <string name="radio_tab_3">ILS</string>
+    <string name="radio_tab_4">Radio</string>
+    <string name="radio_in_msg_1">"Radionavigation instruments are radio aids that use ground stations or satellites to provide reliable indications of the position of the airplane in space. The first system appeared in 1920, and batter and more precise and performent appeared over time.
+We can list the most used today as such:
+ - VOR : VHF Omnidirectional Range
+ - ILS : Instrument Landing System
+ - NDB : No Directional Beacon
+ - DME : Distance Measuring Equipment
+ - GPS : Global Positionning System
+
+A functional systems VOR and ILS may be found in our cockpit. It is for this reason that we will only describe how does each of following parts works.</string>
+    <string name="radio_vor_msg_1">VOR is the accronyme for VHF Omnidirectional Range, which is a short and medium distance positioning system used in air navigation and operating in the Very High Frequencies (VHF) frequency range. The receiver on board makes it possible to know continuously and visually the magnetic readings of the aircraft with respect to a ground station and to follow a magnetic route in approach or away from this beacon. VORs work in the frequency range 108 to 117.95MHz.
+
+ Here is an examble of a VOR beacon that we can found on ground"</string>
+    <string name="radio_vor_msg_2">"The pilot gets 2 informations from the VOR:
+ - The direction of the station in with respect to the position of the aircraft. It is represented on the instrument by the vertical white line. In this example, it is on the left so the station is to the left of the aircraft. If he had been on the right, the line would have leaned to the right.
+ - If the plane is approaching or moving away from the station (TO / FROM). This information can be obtained by looking at the white indicator \'NAV\'. Half white towards the front means that the beacon is at the front of the plane. If it had been behind, the indicator would be towards the back."</string>
+    <string name="radio_vor_msg_3">Thanks to this, one can navigate with respect to the beacon by simply connecting to the right frequency. The classic method of using a VOR is to go there with the 2 marks explained above. As soon as our reference NAV passes from TO to FROM, then we just passed over the station. Simply connect to the frequency of another VOR to continue its route. This method is called Instrument Control (IFR).</string>
+    <string name="radio_ils_msg_1">"The ILS (Instrument Landing System) is an instrument landing aid system with when the visibility is reduced. The information given to the pilot are:
+ - position relative to the axis of the track \'Localizer\'
+ - position with respect to an oblique downhill plane leading to the track \'Glide Path\'
+ - distance from the runway threshold if the ILS is coupled with a distance radar (DME)
+The airplane is autonomous and no ground-to-air connection is necessary."</string>
+    <string name="radio_ils_msg_2">"The aim of the localizer is to provide continuous information of deviation in a horizontal plane (azimuth), by transmitting radio signals in the runway axis via a set of antennas. It uses the same frequencies as the VOR.
+The Glide Path is a short distance navigation aid. Its purpose is to give a continuous information of deviation in size and in sign with respect to an oblique plane materializing the plane of descent. This is the horizontal white bar. Connecting to the localizer automatically synchronizes the GP.
+
+Finally, once the track is in sight, the pilot has to align his plane as accurately as possible with respect to the track. Having no more time to look at his instruments, a system was invented to replace the Glide Path at that time. It is called \'PAPI\'.
+It consists of 4 white or red lights. If the plane is too high, there are more white lights, and if there are more red lights, then the plane is too low. The goal is to have 2 red lights and 2 white lights. Attention, there is not always PAPI on the runways, especially for the smaller airfields."</string>
+    <string name="radio_rad_msg_1">"All previous systems are automated. However, for communications, human contact is compulsory. A phraseology specially designed for aeronautics was invented. Radio waves are used as a transport medium, and the frequency band is between 108 MHz and 137 MHz.
+
+Getting in touch with the control towers around is mandatory to enter the air circuit. Depending on the position of the aircraft, it is necessary to connect on specific towers, such as (non-exhaustive)
+ - \'Tour\' for take-offs and landings
+ - \'Sol\' for ground travel
+ - \'Approach\' for approaching planes on the airport"</string>
+    <string name="radio_rad_msg_2">"In order to locate the aircraft in a circuit, the transponder was invented. Its role is to allow the control towers to identify an aircraft thanks to a temporary code of 4 digits in base 7.
+There are several states of the transponder. In our cockpit, 3 modes were reproduced:
+ - Off: The transponder is switched off.
+ - Stand-by (SBY): the transponder has a number, it is used for ground movement.
+ - On: Used only when entering the track and in flight."</string>
+
+    <string name="checklist_msg_1">Slide to access to other checklists</string>
+    <string name="checklist_msg_2">Flight over!</string>
+
+    <string name="avanc_msg_1">The project</string>
+    <string name="avanc_msg_21">You already have the updated version.</string>
+    <string name="avanc_msg_22">Update done.</string>
+    <string name="avanc_msg_23">Downloading...</string>
+    <string name="avanc_msg_24">Failed to connect</string>
     <string name="avanc_msg_3">News</string>
     <string name="avanc_msg_4">Update</string>
 
@@ -91,5 +153,5 @@ Aura EN Version - 2016,2017"</string>
 
     <string name="drawer_open">Open navigation drawer</string>
     <string name="drawer_close">Close navigation drawer</string>
-    <string name="end_dl">Under construction</string>
+    <string name="end_dl">Downloaded !</string>
 </resources>

@@ -63,12 +63,12 @@ C\'est la possibilité de modifier l\'angle de calage par rotation autour de l\'
  - Reverse (-17°) : Réduit la distance de roulage (à l’atterrissage)."</string>
 
     <string name="instru_tab_1">Intro</string>
-    <string name="instru_tab_2">Anémo</string>
+    <string name="instru_tab_2">Anemo</string>
     <string name="instru_tab_3">Pneuma</string>
-    <string name="instru_in_msg_1">"Les instruments de navigation permettent de relayer les différents états de l\'avion au pilote. Certains sont plus utilisés que d\'autres, mais tous jouent un rôle unique qui, parfois, sauve des vies. Un pilote doit en permanence vérifier le bon état de son appareil et doit même se préparer à ce que les instruments tombent en panne en plein vol. Cependant, il existe de nombreuses sécurité de nos jours pour limiter les problèmes.
+    <string name="instru_in_msg_1">"Les instruments de navigation permettent de relayer les différents états de l\'avion au pilote. Certains sont plus utilisés que d\'autres, mais tous jouent un rôle unique qui, parfois, sauve des vies. Un pilote doit en permanence vérifier le bon état de son appareil et doit même se préparer à ce que les instruments tombent en panne en plein vol. Cependant, il existe de nombreuses sécurités de nos jours pour limiter les problèmes.
 
 
-Les instruments du C182 fonctionnent par réaction mécanique qui créer le mouvement d\'aiguilles. Il existe deux types de circuit permettant ces réactions
+Les instruments du C182 fonctionnent par réaction mécanique qui crée le mouvement d\'aiguilles. Il existe deux types de circuit permettant ces réactions
 
  - Les circuits anémométriques : Grâce au tube Pitot, l\'avion récupère notamment le flux d\'air et la pression ambiante."</string>
     <string name="instru_in_msg_2"> - Les circuits pneumatiques : Grâce à un élément appelé \'Pompe à vide\', les instruments fonctionnants sur ces circuits réagissent différemment par rapport au type de circuit précédent.</string>
@@ -79,7 +79,7 @@ Les instruments du C182 fonctionnent par réaction mécanique qui créer le mouv
  - Marque rouge : Dépasser cette limite est la prise de risque de dépasser la limite structurale de l\'avion et donc une dislocation de l\'appareil en plein vol"</string>
     <string name="instru_an_msg_2">"L\'altimètre est l\'élément indispensable pour piloter. Il permet d\'informer le pilote sur la hauteur à laquelle il est actuellement. Cela signifie la distance entre le sol en dessous de l\'avion et l\'avion lui-même. Il faut savoir qu\'il existe plusieurs types de hauteur comme l\'altitude qui est cette fois la mesure entre le niveau de la mer et la hauteur de l\'avion (même s\'il y a une montagne en dessous de l'avion).
 Pour obtenir la hauteur, on règle la pression atmosphérique ambiante. Cette dernière peut être exprimée en pouce de mercure (inHg, plutôt en Amérique) ou en hecto Pascal (hP plutôt en Europe)"</string>
-    <string name="instru_an_msg_3">"Le variomètre permet d\'obtenir l\'ascension de l\'avion, souvent en pieds par minute (ft/min). Si elle est positive, l\'avion monte et inversement, si elle est négative, alors l\'avion descend. L\'information importante de cet instrument est, dans la réalité, le retard de plusieurs secondes du mouvement de l\'aiguille par rapport à la situation présente."</string>
+    <string name="instru_an_msg_3">"Le variomètre permet d\'obtenir l\'ascension de l\'avion, souvent en pieds par minute (ft/min). Si elle est positive, l\'avion monte et inversement, si elle est négative, alors l\'avion descend. Il faut savoir que cet instrument affiche l\'état de l\'avion avec quelques secondes en retard."</string>
     <string name="instru_pn_msg_1">"C\'est l\'instrument le plus connu du grand public : l\'horizon artificiel. De part ses couleurs qui se démarquent des autres instruments, il a la particularité de ne pas fonctionner avec des aiguilles mais avec des surfaces se déplacant et tournant. Grâce à cet appareil, on peut
  - Savoir le taux de montée ou de descente
  - Savoir l\'angle de virage
@@ -117,7 +117,7 @@ Voici un exemple de balise VOR que l\'on peut retrouver au sol"</string>
 L\'avion est autonome et aucune liaison sol-air n\'est nécessaire.
 "</string>
     <string name="radio_ils_msg_2">"Le but du Localizer est de donner une information continue d\'écart dans un plan horizontal (azimut), en émettant grâce à un ensemble d\'antennes des signaux radioélectriques dans l\'axe de piste. Il utilise les mêmes fréquences que les VOR.
-Le Glide Path est une aide à la navigation courte distance. Son but est de donner une information continue d\'écart en grandeur et en signe par rapport à un plan oblique matérialisant le plan de descente. C\'est la barre blanche horizontale. Se connecter au localizer synchronise automatiquement le GP.
+Le Glide Path est une aide à la navigation courte distance. Son but est de donner une information continue d\'écart en grandeur et en signe par rapport à un plan oblique matérialisant le plan de descente. C\'est la barre blanche horizontale. Se connecter au localizer synchronise automatiquement le Glide Path.
 
 En final, une fois la piste en vue, le pilote se doit d\'aligner le plus précisemment possible son avion par rapport à la piste. N\'ayant plus vraiment le temps de regarder sur ses instruments, un système a été inventé pour remplacer le Glide Path à ce moment. Il se nomme \'PAPI\'.
 Il s\'agit de 4 lumières blanches ou rouges. Si l\'avion est trop haut, il y a plus de lumières blanches et s\'il y a plus de lumières rouges, alors l\'avion est trop bas. Le but est d\'avoir 2 lumières rouges et 2 lumières blanches. Attention, il n\'y a pas systématiquement des PAPI sur les pistes, surtout pour les plus petits aérodromes."</string>
@@ -133,7 +133,7 @@ Il y a plusieurs états du transpondeur. Dans notre cockpit, 3 modes ont été r
  - Stand-by (SBY) : le transpondeur possède un numéro, il est utilisé pour le déplacement au sol.
  - On : Utilisé uniquement lors de l\'entrée en piste et en vol."</string>
 
-    <string name="checklist_msg_1">Glissez pour accéder aux autres checklist</string>
+    <string name="checklist_msg_1">Glissez pour accéder aux autres checklists</string>
     <string name="checklist_msg_2">Vol terminé !</string>
 
     <string name="avanc_msg_1">Le projet</string>
@@ -147,15 +147,15 @@ Il y a plusieurs états du transpondeur. Dans notre cockpit, 3 modes ont été r
     <string name="media_msg_1">Charger</string>
 
     <string name="menu_1">Présentation</string>
-     <string name="menu_11">Le projet</string>
-     <string name="menu_12">L\'avancement (en ligne)</string>
-     <string name="menu_13">Médias (en ligne)</string>
-     <string name="menu_14">Checklists</string>
+    <string name="menu_11">Le projet</string>
+    <string name="menu_12">L\'avancement (en ligne)</string>
+    <string name="menu_13">Médias (en ligne)</string>
+    <string name="menu_14">Checklists</string>
     <string name="menu_2">L\'avion</string>
-     <string name="menu_21">Cessna 182</string>
-     <string name="menu_22">Moteur et Hélice</string>
-     <string name="menu_23">Les instruments</string>
-     <string name="menu_24">Radio et Navigation</string>
+    <string name="menu_21">Cessna 182</string>
+    <string name="menu_22">Moteur et Hélice</string>
+    <string name="menu_23">Les instruments</string>
+    <string name="menu_24">Radio et Navigation</string>
 
     <string name="drawer_open">Ouverture de la navigation</string>
     <string name="drawer_close">Fermeture de la navigation</string>
